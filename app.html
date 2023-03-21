@@ -13,45 +13,74 @@
         body
         {
             background-color: #D0E3F8;
+            width: 100%; /*largura*/
+            height: 100vh;
             margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;      
+        }
+        .cabecalho
+        {
+            background-color: #87C6D4;
+            width: 100%; /*largura*/
+            height: 110px; /*altura*/
+            font-size: 40px; /*tamanho da letra*/
+            font-family: 'Bungee Shade', cursive;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            justify-items: center;
-            align-content: center;
-            
-            
         }
-        .cabeçalho
+        .texto
         {
-            background-color: #87C6D4;
-            width: 200%; /*largura*/
-            height: 80px; /*altura*/
+            width: 500px; /*largura*/
+            height: 80hv; /*altura*/
             font-size: 40px; /*tamanho da letra*/
             font-family: 'Bungee Shade', cursive;
             padding-left: 25px;        
         }
-        .cabeçalho
-        {
-            width: 200%; /*largura*/
-            height: 80px; /*altura*/
+        .texto2
+         {
+            width: 350px; /*largura*/
+            height: 80vh; /*altura*/
             font-size: 40px; /*tamanho da letra*/
             font-family: 'Bungee Shade', cursive;
+         }
+        .meio
+        {
+            background-color: #224e81;
+            width: 25%; /*largura*/
+            height: 500vh; /*altura*/
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex; /*mostrar*/
+            justify-items: center; /*justificar-itens:*/
+            align-content: center; /*alinhar-conteúdo:*/
         }
-
+        .foto
+        {
+            width: 100px;
+            height: 100px;
+            margin-top: 110px;
+            margin-bottom: 50px;
+            display: flex; /*mostrar*/
+            align-content: center; /*alinhar-conteúdo:*/
+        }
         
     </style>
 
 </head>
 <body>
-    <div class="cabeçalho">
-    <font>SPRING</font> 
-    <font>SHOP</font> 
-    </div>
-
-    <div class="cabeçalho">
-    <font>Bem vindos!</font> 
-    </div>
+    <div class="cabecalho">
+        <div class="texto">SPRING SHOP</div>
+            <div class="texto2">Bem vindos!</div>
     
+    </div>
+    <div class="meio" >  
+        <img src="a.png" class="foto">
+    </div>
+  
+
 </body>
 </html>
