@@ -49,23 +49,39 @@
          }
         .meio
         {
-            background-color: #224e81;
+            background-color: #87C6D4;
             width: 25%; /*largura*/
-            height: 500vh; /*altura*/
-            margin-top: 50px;
+            height: 600px; /*altura*/
+            margin-top: 40px;
             margin-bottom: 50px;
             display: flex; /*mostrar*/
-            justify-items: center; /*justificar-itens:*/
+            align-items: center;
             align-content: center; /*alinhar-conteúdo:*/
+            flex-direction: column;
         }
         .foto
         {
             width: 100px;
-            height: 100px;
-            margin-top: 110px;
-            margin-bottom: 50px;
-            display: flex; /*mostrar*/
-            align-content: center; /*alinhar-conteúdo:*/
+            margin-top: 30px;
+        }
+        .foto2
+        {
+            width: 90px;
+            margin-top: 30px;
+        }
+        .foto3
+        {
+            width: 90px;
+            margin-top: 20px;
+        }
+        .BT1
+        {
+            background-color: #3AAFC8;
+            width: 100px; /* largura*/
+            height: 70px; /* altura*/
+            margin-top: 250px;
+            font-size: 16px; /* tamanho da letra*/
+            cursor: pointer;
         }
         
     </style>
@@ -78,9 +94,13 @@
     
     </div>
     <div class="meio" >  
-        <img src="a.png" class="foto">
+        <img src="usuario.png" class="foto">
+        <button class="BT1">ENTRAR</button> 
+        <div>
+            <img src="imagem.png" class="foto2"> 
+            <img src="imagem2.png" class="foto3"> 
+        </div>
     </div>
-  
 
 </body>
 </html>
